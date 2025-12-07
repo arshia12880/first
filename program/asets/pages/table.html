@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/asets/cssS/table.css">
+    <link rel="stylesheet" href="/asets/cssS/flexpage.css">
+</head>
+
+<body>
+    <section class="app-container">
+
+        <!-- header  -->
+
+        <header class="header">
+            <nav class="menu">
+                <ul>
+                    <li><a href=""></a>تماس با ما</li>
+                    <li><a href=""></a>درباره ما</li>
+                    <li><a href="">محصولات</a></li>
+                    <li><a href=""></a> خانه</li>
+                </ul>
+            </nav>
+            <!-- mobile menu -->
+
+            <details class="mobileMenu d_mobile">
+                <summary>
+                    <!-- <menu></menu>      این هم میشه-->
+                    <img class="color_white" width="25px" src="/asets/img/icons8-menu.svg" alt="">
+                </summary>
+                <ul class="p_absolute right_1 z_index1">
+                    <li class="d_block"><a href="#">خانه </a></li>
+                    <li class="d_block"><a href="#">محصولات </a></li>
+                    <li class="d_block"><a href="#"> درباره ما</a></li>
+                    <li class="d_block"><a href="#"> تماس با ما</a></li>
+                </ul>
+            </details>
+        </header>
+
+
+
+        <!-- main content  -->
+
+        <main class="p-relative main-content">
+            <h1>
+                محصولات ما
+            </h1>
+
+            <table dir="rtl">
+                <thead class="p_sticky">
+                    <tr>
+                        <th>نام محصول</th>
+                        <th>قیمت</th>
+                        <th>تصویر</th>
+                        <th>تعداد</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr class="border-1 mt_1">
+                        <td>مانیتور 1</td>
+                        <td>15.000.000 تومان</td>
+                        <td>
+                            <a href="#product1">
+                                <img class="heigth_2 scale_3" src="/asets/img/m-1.jpg" alt="">
+                            </a>
+                        </td>
+                        <td>10</td>
+                    </tr>
+
+                    <tr class="border-1 mt_1">
+                        <td>مانیتور 2</td>
+                        <td>20.000.000 تومان</td>
+                        <td>
+                            <a href="#product2">
+                                <img class="heigth_2 scale_3" src="/asets/img/m-2.jpg" alt="">
+                            </a>
+                        </td>
+                        <td>5</td>
+                    </tr>
+
+                    <tr class="border-1 mt_1">
+                        <td>مانیتور 3</td>
+                        <td>10.000.000 تومان</td>
+                        <td>
+                            <a href="#product3">
+                                <img class="heigth_2 scale_3" src="/asets/img/m-3.jpg" alt="">
+                            </a>
+                        </td>
+                        <td>15</td>
+                    </tr>
+
+                    <tr class="border-1 mt_1">
+                        <td>مانیتور 4</td>
+                        <td>35.000.000 تومان</td>
+                        <td>
+                            <a href="#product4">
+                                <img class="heigth_2 scale_3" src="/asets/img/m-4.jpg" alt="">
+                            </a>
+                        </td>
+                        <td>3</td>
+                    </tr>
+
+                </tbody>
+
+                <tfoot class="bg_green">
+                    <tr>
+                        <td colspan="3">جمع کل</td>
+
+                        <td>33</td>
+                    </tr>
+                </tfoot>
+            </table>
+
+            <div id="product1"
+                class="productModal d_flex align_items_center justify_content_center top_0 p_absolute w_100 h_100 left_0 background_blur_black">
+                <img class="w_50 drop_shadow" src="/asets/img/m-1.jpg" alt="">
+                <a class="top_0 left_0 p_absolute close_btn m_2" href="#">❌</a>
+            </div>
+
+            <div id="product2"
+                class="productModal d_flex align_items_center justify_content_center top_0 p_absolute w_100 h_100 left_0 background_blur_black">
+                <img class="w_50 drop_shadow" src="/asets/img/m-2.jpg" alt="">
+                <a class="top_0 left_0 p_absolute close_btn m_2" href="#">❌</a>
+            </div>
+
+            <div id="product3"
+                class="productModal d_flex align_items_center justify_content_center top_0 p_absolute w_100 h_100 left_0 background_blur_black">
+                <img class="w_50 drop_shadow" src="/asets/img/m-3.jpg" alt="">
+                <a class="top_0 left_0 p_absolute close_btn m_2" href="#">❌</a>
+            </div>
+
+            <div id="product4"
+                class="productModal d_flex align_items_center justify_content_center top_0 p_absolute w_100 h_100 left_0 background_blur_black">
+                <img class="w_50 drop_shadow" src="/asets/img/m-4.jpg" alt="">
+                <a class="top_0 left_0 p_absolute close_btn m_2" href="#">❌</a>
+            </div>
+
+
+
+        </main>
+
+
+        <!-- footer  -->
+
+        <footer id="footer" class="footer">
+            <p>&copy; تمامی حقوق محفوظ است 2025</p>
+        </footer>
+    </section>
+    <!-- اینجا مقداری تحقیق کردم اما به جوابی برای فیکس کردن ارتفاع صفحه پیدا نکردم -->
+
+</body>
+
+</html>
