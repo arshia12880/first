@@ -1,0 +1,48 @@
+      html {
+            width: 100vw;
+            height: 100vh;
+        }
+
+        body {
+            background-blend-mode: overlay;
+            background: url(/asets/img/bg2.jpg) center / cover no-repeat;
+            width: inherit;
+            height: inherit;
+        }
+
+        .video {
+            /* width: 1000px; */
+            height: 600px;
+        }
+
+        .dis-f {
+            display: flex;
+        }
+
+        .align-c {
+            align-items: center;
+        }
+
+        .justy-c {
+            justify-content: center;
+        }
+
+        .music {
+            /* height: 800px; */
+            width: 70%;
+            margin-left: 15%;
+            margin-right: 15%;
+        }
+
+        .word-4 {
+            word-spacing: 4rem;
+        }
+
+        .mg-30 {
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+
+        .d-inlnie_block {
+            display: inline-block;
+        }
